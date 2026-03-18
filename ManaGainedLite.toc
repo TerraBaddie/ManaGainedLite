@@ -1,0 +1,8 @@
+## Interface: 11200
+## Title: ManaGainedLite
+## Author: TerraBaddie
+## Version: 1.0.3.18.2026
+## Notes: Lightweight mana gained tracker separate from DPSMate with mini meter & chat commands
+## SavedVariables: ManaGainedLiteDB
+
+ManaGainedLite.lua
