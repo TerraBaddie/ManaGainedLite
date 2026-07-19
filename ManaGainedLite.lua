@@ -368,6 +368,11 @@ function ManaGainedLite:RecordMana(target, spell, amount)
 		return
 	end
 
+	-- Only record the player or current party/raid members
+	if not Roster[target] then
+		return
+	end
+
 	-- Try to cache class immediately if we don't know it yet
 	if target and not ClassCache[target] then
 		local playerName = UnitName("player")
